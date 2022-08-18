@@ -7,11 +7,12 @@ import me.abetgt.mercuryapi.events.player.MercuryListener_PlayerOpenMerchantInve
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class MercuryAPI extends JavaPlugin implements Listener {
 
-    private static MercuryAPI mercuryPlugin;
+    private static Plugin mercuryPlugin;
 
     @EventHandler
     public void onOpenMerchant(PlayerOpenMerchantInventoryEvent event){
@@ -36,7 +37,7 @@ public final class MercuryAPI extends JavaPlugin implements Listener {
         // Plugin shutdown logic
     }
 
-    public static MercuryAPI getMercuryPlugin(){
+    public static Plugin getMercuryPlugin(){
         return mercuryPlugin;
     }
 
