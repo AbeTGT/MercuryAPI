@@ -1,0 +1,6 @@
+name: MercuryAPI
+version: '${project.version}'
+main: me.abetgt.mercuryapi.MercuryAPI
+api-version: 1.19
+authors: [ AbeTGT ]
+description: Adds useful things to Spigot without using NMS.
