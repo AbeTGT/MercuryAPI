@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"me.abetgt.mercuryapi"},{"l":"me.abetgt.mercuryapi.events.doublechest"},{"l":"me.abetgt.mercuryapi.events.player"},{"l":"me.abetgt.nmsvillager.listeners"}];updateSearchResults();
